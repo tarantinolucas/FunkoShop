@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/edit.css" />
+    <title>Funkshop - Edit</title>
+  </head>
+  <body>
+    <main>
+      <h3>EDITAR ITEM</h3>
+      <form action="">
+        <div>
+          <label for="select-category">Categoría:</label>
+          <select name="select-category" id="">
+            <option value="">Figuras</option>
+            <option value="">Opción 2</option>
+            <option value="">Opción 3</option>
+            <option value="">Opción 4</option>
+            <option value="">Opción 5</option></select
+          >
+        </div>
+        <div id="form-select-license">
+          <label for="select-license">Licencia:</label>
+          <select name="select-license" id="">
+            <option value="">Naruto Shippuden</option>
+            <option value="">Opción 2</option>
+            <option value="">Opción 3</option>
+            <option value="">Opción 4</option>
+            <option value="">Opción 5</option></select
+          >
+        </div>
+        <div class="form-item-underlined" id="form-item-nameProduct">
+          <h6>Nombre del producto:</h6>
+          <p>Kakashi Hatake Shippuden Saga</p>
+        </div>
+        <div id="form-textArea-description">
+          <textarea
+            name="textArea-description"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Figura Funko coleccionable de Kakashi Hatake de la saga Naruto Shipudden invocando chidori."
+          ></textarea>
+        </div>
+        <div class="form-item-underlined">
+          <h6>SKU:</h6>
+          <p>NAR001012</p>
+        </div>
+        <div class="form-item-underlined">
+          <h6>Precio:</h6>
+          <p>$ 1.799,00</p>
+        </div>
+        <div class="form-item-underlined">
+          <h6>Stock:</h6>
+          <p>10</p>
+        </div>
+        <div class="form-item-underlined">
+          <h6>Descuento:</h6>
+          <p>10 %</p>
+        </div>
+        <div>
+          <label for="financing">Cuotas: </label
+          ><select name="financing" id="">
+            <option value="1">1 cuota sin interés</option>
+            <option value="3">3 cuotas sin interés</option>
+            <option value="6" selected>6 cuotas sin interés</option>
+            <option value="12">12 cuotas sin interés</option>
+            <option value="18">18 cuotas sin interés</option>
+          </select> 
+        </div>
+        <div id="form-item-loadImage">
+          <div id="form-item-inputLoadImg">
+            <label for="image-product">Imágenes:</label
+            ><input
+              type="file"
+              name="image-product"
+              id=""
+              accept=".png, .jpg, .jpeg"
+            />
+          </div>
+          <div class="load-img">
+            <img src="./assets/img/kakashi_hatake_front.png" alt="" />
+            <p>Frente</p>
+          </div>
+          <div class="load-img">
+            <img src="./assets/img/kakashi_hatake_back.png" alt="" />
+            <p>Dorso</p>
+          </div>
+        </div>
+        <div><input type="submit" value="Modificar Producto" /></div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container
+{
+    padding-top: 30px;
+    width: 1200px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar-container
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search-bar-container button
+{
+    border: 0;
+    background-color: transparent;
+}
+
+.search-bar-container button i
+{
+    font-size: 30px;
+}
+
+.search-bar-container input
+{
+    width: 500px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #30343F;
+    padding: 0 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.search-bar-container input::placeholder
+{
+    color: #B9B9B9;
+    opacity: 1;
+}
+
+.search-bar-container input::-ms-input-placeholder
+{
+    color: #B9B9B9;
+}
+
+.product-list_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list_header .title-container .title-lista-productos
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.product-list_header .add-item-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.product-list_header .add-item-container p
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product-list_header .add-item-container button
+{
+    margin-left: 35px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.product-list-container table
+{
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.product-list-container table, th, td
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.product-list-container table td
+{
+    font-weight: 100;
+}
+
+.product-list-container table td button
+{
+    border: 0;
+    background-color: transparent;
+}
+
+.fa-pen
+{
+    color: rgba(0, 110, 255, 0.801);
+    font-size: 24px
+}
+
+.fa-trash-can
+{
+    color: red;
+    font-size: 24px
+}
+
+.t-center
+{
+    text-align: center;
+}
+
+.t-left
+{
+    text-align: left;
+}
+
+.t-right
+{
+    text-align: right;
+}
+
+.p-left
+{
+    padding-left: 25px;
+}
+
+.p-right
+{
+    padding-right: 35px;
+}
