@@ -6,9 +6,8 @@
 
 .admin-container
 {
-    padding-top: 30px;
     width: 1200px;
-    margin: auto;
+    margin: 40px auto 40px auto;
     font-family: 'Inter', sans-serif;
 }
 
@@ -106,7 +105,7 @@
 
 .product-list-container table td
 {
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .product-list-container table td button

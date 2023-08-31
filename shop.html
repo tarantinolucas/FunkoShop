@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FunkoShop - Shop</title>
+    <link rel="stylesheet" href="./estilos/shop.css" />
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+  </head>
+  <body>
+    <!-- INICIO HEADER -->
+    <header>  
+      <nav class="header-navbar">
+          <div class="header-navbar-container">
+              <a class="header-navbar-logo" href="index.html">
+                  <img src="multimedia/branding/logo_light_horizontal.svg" alt="logo"> 
+              </a>
+              <ul class="header-navbar-nav">
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="#">SHOP <img src="assets/img/poquito.png"></a>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="admin.html">CONTACTO</a>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="#">LOGIN</a>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="#">SALIR</a>
+                  </li>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="#"><img src="assets/img/cart-icon.png"></a>
+                  </li>
+              </ul>
+          </div> 
+      </nav>
+  </header>
+  <!-- FIN HEADER -->
+    <section>
+      <form action="#" class="buscador">
+        <label for="buscador" class="form__subtitulo">Buscar</label>
+        <input
+          class="input__grande"
+          type="text"
+          name="buscador"
+          id=""
+          placeholder="Item o categoria"
+        />
+        <label for="ordenarPor" class="form__subtitulo">Ordenar Por</label>
+        <select name="ordenarPor" id="" class="input__grande">
+          <option value="" selected>Mayor a menor</option>
+          <option value="">Menor a mayor</option>
+          <option value="">Por relevancia</option>
+        </select>
+        <div class="div__precio">
+          <p class="form__subtitulo precio__subtitulo">Precio</p>
+          <div>
+            <label for="precioMin"
+              >Min<input
+                type="text"
+                name="precioMin"
+                id=""
+                placeholder="0"
+                class="input__precio" /></label
+            ><span>-</span>
+            <label for="precioMax"
+              >Max<input
+                type="text"
+                name="precioMax"
+                id=""
+                placeholder="0"
+                class="input__precio"
+            /></label>
+          </div>
+          <p class="form__subtitulo filtro__p">Filtrar</p>
+          <label for="filtro-nuevo" class="filtro__label">
+            <input
+              type="checkbox"
+              name="filtro-nuevo"
+              id="filtro-nuevo"
+            />Nuevos
+          </label>
+          <label for="filtro-ofertas" class="filtro__label">
+            <input
+              type="checkbox"
+              name="filtro-ofertas"
+              id="filtro-ofertas"
+            />Ofertas
+          </label>
+          <label for="filtro-edicionEspecial" class="filtro__label">
+            <input
+              type="checkbox"
+              name="filtro-edicionEspecial"
+              id="filtro-edicionEspecial"
+            />Edición especial
+          </label>
+          <label for="filtro-favoritos" class="filtro__label">
+            <input
+              type="checkbox"
+              name="filtro-favoritos"
+              id="filtro-favoritos"
+            />Favoritos
+          </label>
+        </div>
+      </form>
+      <div class="container__funkoItem">
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/star-wars/trooper-1.webp" alt="" />
+          <h6 class="m-bottom-13">STAR WARS</h6>
+          <h5 class="m-bottom-13">STORMTROOPER LIGHTSABER</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="" />
+          <h6 class="m-bottom-13">POKEMON</h6>
+          <h5 class="m-bottom-13">PIDGEOTTO</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/harry-potter/luna-1.webp" alt="" />
+          <h6 class="m-bottom-13">HARRY POTTER</h6>
+          <h5 class="m-bottom-13">LUNA LOVEGOOD LION MASK</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/star-wars/trooper-1.webp" alt="" />
+          <h6 class="m-bottom-13">STAR WARS</h6>
+          <h5 class="m-bottom-13">STORMTROOPER LIGHTSABER</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="" />
+          <h6 class="m-bottom-13">POKEMON</h6>
+          <h5 class="m-bottom-13">PIDGEOTTO</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/harry-potter/luna-1.webp" alt="" />
+          <h6 class="m-bottom-13">HARRY POTTER</h6>
+          <h5 class="m-bottom-13">LUNA LOVEGOOD LION MASK</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/star-wars/trooper-1.webp" alt="" />
+          <h6 class="m-bottom-13">STAR WARS</h6>
+          <h5 class="m-bottom-13">STORMTROOPER LIGHTSABER</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="" />
+          <h6 class="m-bottom-13">POKEMON</h6>
+          <h5 class="m-bottom-13">PIDGEOTTO</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+        <div class="funkoItem">
+          <p class="p__nuevo">NUEVO</p>
+          <img src="./multimedia/harry-potter/luna-1.webp" alt="" />
+          <h6 class="m-bottom-13">HARRY POTTER</h6>
+          <h5 class="m-bottom-13">LUNA LOVEGOOD LION MASK</h5>
+          <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+          <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+        </div>
+      </div>
+    </section>
+    <div class="control-paginas">
+      <ul>
+      <li id="control-paginas__atras">&lt</li>
+      <li id="control-paginas__seleccion">1</li>
+      <li>2</li>
+      <li>...</li>
+      <li>9</li>
+      <li>10</li>
+      <li id="control-paginas__adelante">&gt</li>
+    </ul>
+    </div>
+    <!-- INICIO FOOTER -->
+    <footer>
+      <nav class="footer-navbar">
+          <ul class="footer-navbar-nav">
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">SHOP</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">REGISTRARSE</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">INGRESAR</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">CONTACTO</a>
+              </li>
+          </ul>
+          <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p> 
+          <img class="logo-footer" src="multimedia/branding/isotype.svg" alt="logo-funko">
+      </nav>
+  </footer>
+  <!-- FIN FOOTER -->
+  </body>
+</html>

@@ -5,13 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/admin.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
     <script src="https://kit.fontawesome.com/cd152692ec.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Funkshop - Admin</title>
 </head>
 <body>
+
+    <!-- INICIO HEADER -->
+    <header>  
+        <nav class="header-navbar">
+            <div class="header-navbar-container">
+                <a class="header-navbar-logo" href="index.html">
+                    <img src="multimedia/branding/logo_light_horizontal.svg" alt="logo"> 
+                </a>
+                <ul class="header-navbar-nav">
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="#">SHOP <img src="assets/img/poquito.png"></a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="admin.html">CONTACTO</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="#">LOGIN</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="#">SALIR</a>
+                    </li>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="#"><img src="assets/img/cart-icon.png"></a>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <!-- FIN HEADER -->
+
     <div class="admin-container">
         <div class="search-bar-container">
             <button><i class="fa fa-search"></i></button>
@@ -139,5 +169,29 @@
             </table>
         </div>
     </div>
+
+    <!-- INICIO FOOTER -->
+    <footer>
+        <nav class="footer-navbar">
+            <ul class="footer-navbar-nav">
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">SHOP</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">REGISTRARSE</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">INGRESAR</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">CONTACTO</a>
+                </li>
+            </ul>
+            <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p> 
+            <img class="logo-footer" src="multimedia/branding/isotype.svg" alt="logo-funko">
+        </nav>
+    </footer>
+    <!-- FIN FOOTER -->
+
 </body>
 </html>

@@ -1,2 +1,2 @@
-# FunkoShop
-Proyecto CodoACodo Comision #23580 - Funko Shop
+# Funkoshop
+Proyecto Final - Node JS

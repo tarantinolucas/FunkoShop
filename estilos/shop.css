@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: var(--granate);
+  font-family: "Inter", sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 68px auto;
+}
+
+/* CSS BUSCADOR */
+form {
+  font-size: 24px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.container__funkoItem {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 990px;
+}
+
+.funkoItem {
+  flex-basis: 30%;
+  flex-grow: 1;
+  position: relative;
+  max-width: 310px;
+}
+
+section img {
+  width: 100%;
+}
+
+.form__subtitulo {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  display: block;
+  text-align: left;
+}
+
+.input__grande {
+  width: 243px;
+  margin: 10px 0 28px 0;
+  border-radius: 6px;
+  border: solid 2px #30343f;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #b9b9b9;
+}
+.input__grande::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #b9b9b9;
+}
+option {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: black;
+}
+.precio__subtitulo {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.input__precio {
+  font-size: 20px;
+  line-height: 24px;
+  color: #b9b9b9;
+  font-weight: 500;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  border-radius: 6px;
+  border: solid 2px #30343f;
+  margin: 0 10px;
+}
+
+.div__precio div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.div__precio label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+}
+.div__precio span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-right: 10px;
+}
+.filtro__p {
+  margin-bottom: 16px;
+}
+.filtro__label {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #111111;
+  margin-bottom: 8px;
+}
+.filtro__label input {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+/* CSS TARJETAS */
+.funkoItem {
+  margin: 0 12.5px;
+}
+
+.p__nuevo {
+  padding: 7px 15px;
+  background-color: #ff3333;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.funkoItem img {
+  width: 305px;
+  margin-bottom: 28px;
+}
+
+.funkoItem h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #333333;
+}
+.funkoItem h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #111111;
+}
+.p__precio {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #333333;
+}
+.p__cuotas {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+  color: #1d84b5;
+}
+
+.m-bottom-13 {
+  margin-bottom: 13px;
+}
+.control-paginas ul {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  color: #212b36;
+  flex-direction: row;
+  line-height: 20px;
+  justify-content: center;
+  margin-bottom: 68px;
+}
+.control-paginas li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: solid 1px #dfe3e8;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+#control-paginas__atras {
+  background-color: #919eab;
+  color: #c4cdd5;
+}
+#control-paginas__seleccion {
+  color: #ff3333;
+  border: solid 1px #ff3333;
+}
+#control-paginas__adelante {
+  color: #c4cdd5;
+}
