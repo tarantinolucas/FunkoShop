@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="multimedia/icons/baby-yoda-1.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="estilos/create.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <title>Create</title>
+</head>
+<body>
+    <!-- INICIO HEADER -->
+    <header>  
+      <nav class="header-navbar">
+          <div class="header-navbar-container">
+              <a class="header-navbar-logo" href="index.html">
+                  <img src="multimedia/branding/logo_light_horizontal.svg" alt="logo"> 
+              </a>
+              <ul class="header-navbar-nav">
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="shop.html">VER TIENDA</a>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="admin.html">ADMIN</a>
+                  </li>
+                  <li class="header-nav-item">
+                      <a class="header-nav-link" href="index.html">SALIR</a>
+                  </li>
+                  </li>
+              </ul>
+          </div> 
+      </nav>
+  </header>
+  <!-- FIN HEADER -->
+ <main class="main-create">
+    <h1 class="titulo-create"> CREAR NUEVO ITEM</h1>
+  <form>
+   <div class="container">
+       <div class="form-containers">  
+        <label class="item-productos">Categoria: </label>
+        <select class="seleccion">
+           <option selected>Seleccionar</option>
+           <option value="1">Opcion 1</option>
+           <option value="2">Opcion 2</option>
+           <option value="3">Opcion 3</option>
+        </select>
+
+        <label class="item-productos">Licencia: </label>
+        <select class="seleccion">
+           <option selected>Seleccionar</option>
+           <option value="1">Opcion 1</option>
+           <option value="2">Opcion 2</option>
+           <option value="3">Opcion 3</option>
+        </select>
+     </div>
+      <div class="form-container">
+       <label for="producto" class="item-productos">Nombre del producto:</label> 
+         <input type="text" class="form-control" id="inputproducto" placeholder="Kakashi Hatake Shippuden Saga">
+      </div> 
+      <div class="form-container">  
+       <textarea class="form-textarea" id="ControlTextarea" cols="30" rows="10"  placeholder="Descripción del producto"></textarea>
+      </div> 
+      <div class="form-container">
+         <label for="producto" class="item-productos">SKU:</label>
+         <input type="text" class="form-control" id="inputsku" placeholder="SSK111AB001">
+         <label for="producto" class="item-productos">Precio:</label>
+         <input type="text" class="form-control" id="inputprecio" placeholder="$ 0.000,00">
+         <label for="producto" class="item-productos">Stock:</label>
+         <input type="text" class="form-control" id="inputstock" placeholder="0">
+      </div>
+      <div class="form-container">
+         <label for="producto" class="item-productos">Descuento:</label>
+         <input type="text" class="form-control" id="inputdescuento" placeholder="0%">
+         <label class="item-productos">Cuotas: </label>
+         <select class="seleccion">
+            <option selected>3 cuotas sin interés</option>
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+         </select>
+      </div>
+      <div class="form-container">
+         <label for="producto" class="item-productos">Imágenes:</label>
+         <input type="file" class="form-controlimg" id="inputfile" value="Elegir archivos">
+      </div>
+      <div class="form-content">
+         <button type="button" class="boton-create">Agregar producto</button>
+         <button type="button" class="boton-create">Limpiar</button>
+      </div>
+   </div>  
+  </form>
+ </main>
+
+   <!-- INICIO FOOTER -->
+   <footer>
+      <nav class="footer-navbar">
+          <ul class="footer-navbar-nav">
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="shop.html">SHOP</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="register.html">REGISTRARSE</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="login.html">INGRESAR</a>
+              </li>
+              <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">CONTACTO</a>
+              </li>
+          </ul>
+          <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p> 
+          <img class="logo-footer" src="multimedia/branding/isotype.svg" alt="logo-funko">
+      </nav>
+  </footer>
+  <!-- FIN FOOTER -->
+
+
+
+    
+</body>
+</html>

@@ -1,83 +1,80 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-.item-container
-{
-    width: 1200px;
-    margin: 40px auto 40px auto;
-    font-family: 'Inter', sans-serif;
+.item-container {
+  width: 1200px;
+  margin: 40px auto;
+  font-family: "Inter", sans-serif;
 }
 
-.item-details-container
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+.item-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
-.categoria-articulo
-{
-    font-size: 16px;
-    color: #333333;
-    font-weight: 600;
+.categoria-articulo {
+  font-size: 1.6rem;
+  color: #333333;
+  font-weight: 600;
 }
 
-.titulo-articulo
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 38px;
-    color: #111111;
-    margin: 15px 0 15px 0;
+.titulo-articulo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 3.8rem;
+  color: #111111;
+  margin: 15px 0 15px 0;
 }
 
-.descripcion-articulo
-{
-    color: #333333;
-    font-size: 24px;
-    font-weight: 400;
+.descripcion-articulo {
+  color: #333333;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
-.precio-articulo
-{
-    color: #333333;
-    font-size: 38px;
-    font-weight: 400;
-    margin: 20px 0 25px 0;
+.precio-articulo {
+  color: #333333;
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin: 20px 0 25px 0;
 }
 
-.botones-carrito-container
-{
-    display: flex;
-    align-items: center;
+.precio-articulo__span {
+  font-size: 3.8rem;
 }
 
-.boton-menos, .boton-mas
-{
-    background-color: #4F4F4F;
-    width: 38.35px;
-    height: 38.35px;
-    color: white;
-    font-size: 25px;
-    border: none;
+.botones-carrito-container {
+  display: flex;
+  align-items: center;
 }
 
-.cantidad
-{
-    border-radius: 0;
-    border: 0.5px solid #C9C9C9;
-    color: #747474;
-    width: 38px;
-    height: 32px;
-    margin: 0 10px 0 10px;
-    text-align: center;
-    -moz-appearance: textfield;
-    appearance: textfield;
-    font-size: 18px;
+.boton-menos,
+.boton-mas {
+  background-color: #4f4f4f;
+  width: 38.35px;
+  height: 38.35px;
+  color: white;
+  font-size: 2.5rem;
+  border: none;
+}
+
+.cantidad {
+  border-radius: 0;
+  border: 0.5px solid #c9c9c9;
+  color: #747474;
+  width: 38px;
+  height: 32px;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-size: 1.8rem;
 }
 
 .cantidad::-webkit-outer-spin-button,
@@ -86,88 +83,188 @@
   margin: 0;
 }
 
-.agregar-carrito
-{
-    background-color: #FF3333;
-    width: 180px;
-    height: 38.35px;
-    color: white;
-    font-size: 18px;
-    border: none;
-    font-weight: 300;
-    margin-left: 25px;
+.agregar-carrito {
+  background-color: #ff3333;
+  width: 180px;
+  height: 38.35px;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  font-weight: 300;
+  margin-left: 25px;
 }
 
-.metodos-cuotas, .metodos-pago
-{
-    color: #00b7ff;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 25px;
+.metodos-cuotas,
+.metodos-pago {
+  color: #00b7ff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 25px;
 }
 
-.titulo-related
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 46px;
-    color: #111111;
+.titulo-related {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 4.6rem;
+  color: #111111;
 }
 
-.related-container
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 20px 20px 20px;
+.related-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 20px 20px 20px;
 }
 
-.related-articulo-container
-{
-    position: relative;
+.related-articulo-container {
+  position: relative;
 }
 
-.new-cartel
-{
-    position: absolute;
-    right: 0;
-    width: 95px;
-    height: 30px;
-    background-color: #FF3333;
-    color: white;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: center;
-    line-height: 30px;
+.new-cartel {
+  position: absolute;
+  right: 0;
+  width: 95px;
+  height: 30px;
+  background-color: #ff3333;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
 }
 
-.categoria-articulo-related
-{
-    font-size: 14px;
-    color: #333333;
-    font-weight: 500;
+.categoria-articulo-related {
+  font-size: 1.4rem;
+  color: #333333;
+  font-weight: 500;
 }
 
-.titulo-articulo-related
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    color: #111111;
-    margin: 15px 0 10px 0;
+.titulo-articulo-related {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #111111;
+  margin: 15px 0 10px 0;
 }
 
-.precio-articulo-related
-{
-    color: #333333;
-    font-size: 16px;
-    font-weight: 400;
+.precio-articulo-related {
+  color: #333333;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
-.metodos-cuotas-related
-{
-    color: #00b7ff;
-    font-size: 12px;
-    font-weight: 700;
-    margin-top: 15px;
+.metodos-cuotas-related {
+  color: #00b7ff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 15px;
 }
+/* SECTION 3 CAROUSEL*/
+
+.div-container__funkoItem {
+  max-width: 1280px;
+  margin: auto;
+  padding: 40px 0px;
+  font-family: Raleway, sans-serif;
+}
+
+.funkoItem {
+  position: relative;
+  margin-right: 70px;
+}
+
+.p__nuevo {
+  padding: 7px 15px;
+  background-color: #ff3333;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.funkoItem img {
+  width: 359px;
+  margin-bottom: 28px;
+}
+
+.funkoItem h6 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #333333;
+}
+.funkoItem h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #111111;
+}
+.p__precio {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #333333;
+}
+.p__cuotas {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 14.52px;
+  color: #1d84b5;
+}
+
+.m-bottom-13 {
+  margin-bottom: 13px;
+}
+
+.slideArrows__icons {
+  width: 12px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+main {
+  width: 80%;
+  border: solid 1px gray;
+  margin: auto;
+  padding: 40px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.item__img .item-img-container {
+  display: flex;
+  position: relative;
+}
+
+.img-back {
+  display: none;
+}
+
+/* EFECTO ESTETICO SOBRE FIGURA */
+.item-img-container:hover .img-back {
+  display: block;
+  animation: fade 3s;
+}
+.item-img-container:hover .img-front {
+  display: none;
+  animation: fade 3s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* FIN EFECTO ESTETICO SOBRE FIGURA */

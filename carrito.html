@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="multimedia/icons/baby-yoda-1.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="estilos/carrito.css" />
+    <link rel="stylesheet" href="estilos/header.css" />
+    <link rel="stylesheet" href="estilos/footer.css" />
+    <title>Funkoshop - Carrito</title>
+  </head>
+
+  <body>
+    <!-- INICIO HEADER -->
+    <header>
+      <nav class="header-navbar">
+        <div class="header-navbar-container">
+          <a class="header-navbar-logo" href="index.html">
+            <img
+              src="multimedia/branding/logo_light_horizontal.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="header-navbar-nav">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="shop.html"
+                >SHOP <img src="assets/img/piquito.png"
+              /></a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">CONTACTO</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="login.html">LOGIN</a>
+            </li>
+            <li class="header-nav-item" id="nav-item__carrito">
+              <a class="header-nav-link" href="carrito.html"
+                ><img src="assets/img/cart-icon.png" />
+              </a>
+              <span>3</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN HEADER -->
+
+    <main>
+      <h3>Carrito de compras</h3>
+      <section id="section-carrito">
+        <div id="encabezado-carrito">
+          <p>Detalle de producto</p>
+          <p>Cantidad</p>
+          <p>Total</p>
+          <!-- <p id="encabezado-carrito__relleno">x</p> -->
+        </div>
+        <div class="item-carrito">
+          <div class="item-carrito__item">
+            <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="" />
+            <div class="item-carrito__texto">
+              <h4>Baby Yoda Blueball</h4>
+              <h5>Star Wars</h5>
+              <p>precio: $ 1799,99</p>
+            </div>
+          </div>
+          <div class="item-carrito__cantidad">
+            <input type="text" placeholder="2" name="" id="" />
+            <div class="item-carrito__cantidad-controles">
+              <a href="#" id="cantidad-controles__sumar">+</a>
+              <a href="#">-</a>
+            </div>
+          </div>
+          <div class="item-carrito__precio">
+            <p>$ 3599,98</p>
+          </div>
+          <div class="item-carrito__eliminar-item">
+            <a href="#">x</a>
+          </div>
+        </div>
+        <!-- ITEM PIDGEOTTO -->
+        <div class="item-carrito">
+          <div class="item-carrito__item">
+            <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="" />
+            <div class="item-carrito__texto">
+              <h4>Pidgeotto</h4>
+              <h5>Pokemon</h5>
+              <p>precio: $ 1799,99</p>
+            </div>
+          </div>
+          <div class="item-carrito__cantidad">
+            <input type="text" placeholder="1" name="" id="" />
+            <div class="item-carrito__cantidad-controles">
+              <a href="#" id="cantidad-controles__sumar">+</a>
+              <a href="#">-</a>
+            </div>
+          </div>
+          <div class="item-carrito__precio">
+            <p>$ 1799,99</p>
+          </div>
+          <div class="item-carrito__eliminar-item">
+            <a href="#">x</a>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION PRECIO -->
+
+      <section id="section-precio">
+        <h3>Resumen</h3>
+        <div>
+          <div>
+            <h4>Cantidad de elementos</h4>
+            <p>3</p>
+          </div>
+          <div>
+            <h4>Subtotal</h4>
+            <p>$ 5.399,97</p>
+          </div>
+          <div>
+            <h4>Envio</h4>
+            <p>$ 0,00</p>
+          </div>
+          <div id="precio__total">
+            <h4>Total</h4>
+            <p>$ 5.399,97</p>
+          </div>
+        </div>
+        <a href="#">Ir a pagar</a>
+      </section>
+    </main>
+
+    <!-- INICIO FOOTER -->
+    <footer>
+      <nav class="footer-navbar">
+        <ul class="footer-navbar-nav">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="shop.html">SHOP</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="login.html">INGRESAR</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">CONTACTO</a>
+          </li>
+        </ul>
+        <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p>
+        <img
+          class="logo-footer"
+          src="multimedia/branding/isotype.svg"
+          alt="logo-funko"
+        />
+      </nav>
+    </footer>
+    <!-- FIN FOOTER -->
+  </body>
+</html>

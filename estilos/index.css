@@ -1,57 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-.first-section {
-  width: 100%;
-}
-.banner-section {
-  display: inline-block;
-  text-align: left;
-  height: 388px;
-  width: 100%;
+
+#section-banner {
   position: relative;
-  max-width: 1440px;
-}
-.banner {
+  height: 388px;
   background-image: url(../multimedia/funkos-banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  background-position: bottom;
   width: 100%;
-  height: 888px;
-  filter: brightness(50%);
-  z-index: -1;
-  top: -390px;
 }
 
-.white-section {
-  background-color: #ffffff;
-  z-index: 100;
-  position: relative;
-  padding: 0px 110px 0 110px;
-  display: flex;
-  align-items: center;
+.banner-section {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
 }
+
 .card-banner {
   position: absolute;
-  margin: 0 auto;
-  top: 40%;
-  left: 21%;
-  transform: translate(-50%, -50%);
+  padding: 110px;
+  z-index: 10;
 }
-.funko-imagen img {
-  margin-left: 160px;
-}
+
 .titulo-banner {
   color: #ffffff;
-  font-family: Raleway;
-  font-size: 38px;
+  font-family: Raleway, sans-serif;
+  font-size: 3.8rem;
   font-weight: 700;
   line-height: 45px;
   letter-spacing: 0em;
@@ -62,7 +46,7 @@ main {
 .texto-banner {
   color: #ffffff;
   font-family: Raleway, sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
@@ -70,43 +54,136 @@ main {
   margin-bottom: 10%;
 }
 
-.boton-shop {
-  width: 190px; /* 211px;*/
-  height: 47px;
-  top: 375px;
-  left: 110px;
+.card-banner a {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 24.2px;
+  padding: 12px 80px;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #111111;
   border-radius: 50px;
+  font-family: "Inter", sans-serif;
 }
 
 /* SECTION 2*/
 
+.selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.selection:nth-child(3) .funko-imagen {
+  order: -1;
+}
+
 .titulo-section {
   font-family: Raleway, sans-serif;
-  font-size: 46px;
+  font-size: 4.6rem;
   font-weight: 500;
   line-height: 54px;
   letter-spacing: 0em;
   text-align: left;
   color: #111111;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .description-section {
   font-family: Raleway, sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
   color: #4f4f4f;
+  margin-bottom: 5px;
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
 }
 
 .boton-coleccion {
   width: 180px;
   height: 40px;
+  font-family: Inter, sans-serif;
   border-radius: 50px;
   background: #30343f;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #ffffff;
-  margin-top: 62px;
+  margin-top: 20px;
+}
+
+.funko-imagen {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+.card-section {
+  padding: 15%;
+}
+
+/* SECTION 3 CAROUSEL*/
+
+.div-container__funkoItem {
+  padding: 40px;
+  font-family: Raleway, sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.funkoItem {
+  position: relative;
+  margin-right: 70px;
+}
+
+.p__nuevo {
+  padding: 7px 15px;
+  background-color: #ff3333;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.funkoItem img {
+  width: 359px;
+  margin-bottom: 28px;
+}
+
+.funkoItem h6 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #333333;
+}
+.funkoItem h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 21.78px;
+  color: #111111;
+}
+.p__precio {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #333333;
+}
+.p__cuotas {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 14.52px;
+  color: #1d84b5;
+}
+
+.m-bottom-13 {
+  margin-bottom: 13px;
+}
+
+.slideArrows__icons {
+  width: 12px;
+  height: auto;
 }

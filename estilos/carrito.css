@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: var(--granate);
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+main {
+  padding: 130px 110px;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 54px;
+  color: #111111;
+  border-bottom: solid 5px #ff3333;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+#encabezado-carrito {
+  background-color: #fafaff;
+  padding: 16px 125px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  margin: 60px 0 32px 0;
+}
+
+#encabezado-carrito p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19.36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.item-carrito {
+  background-color: #fafaff;
+  padding: 16px 90px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  align-items: center;
+  position: relative;
+}
+.item-carrito__precio {
+  font-size: 3rem;
+  margin-right: 20px;
+}
+.item-carrito__item {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  max-width: 280px;
+}
+.item-carrito__item img {
+  max-width: 118px;
+  margin-right: 18px;
+}
+
+.item-carrito__texto h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 29.05px;
+  color: #111111;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.item-carrito__texto h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 16.94px;
+  color: #30343f;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.item-carrito__texto p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 16.94px;
+  color: #333333;
+}
+
+.item-carrito__cantidad {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.item-carrito__cantidad input {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 24.2px;
+  color: #000000;
+  border: solid 0.5px #c9c9c9;
+  background-color: #ffffff;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-right: 6px;
+}
+
+.item-carrito__cantidad-controles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-carrito__cantidad-controles a {
+  background-color: #f24e1e;
+  color: #ffffff;
+  width: 18px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#cantidad-controles__sumar {
+  margin-bottom: 4px;
+}
+
+.item-carrito__eliminar-item {
+  position: absolute;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: solid 3px #f24e1e;
+  border-radius: 50%;
+}
+.item-carrito__eliminar-item a {
+  color: #f24e1e;
+  font-weight: 800;
+  line-height: 20px;
+  font-size: 2.4rem;
+}
+
+/* SECTION PRECIO */
+#section-precio > div {
+  width: 572px;
+  background-color: #fafaff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 44px;
+  margin-left: auto;
+}
+
+#section-precio > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#section-precio h3 {
+  margin-bottom: 26px;
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+}
+#section-precio h4 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 19.36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#section-precio p {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19.36px;
+  text-transform: uppercase;
+  color: #747474;
+}
+#precio__total {
+  padding: 8px 0px;
+  border-top: solid 2px #ff3333;
+}
+#precio__total h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24.2px;
+}
+#precio__total p {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24.2px;
+}
+#section-precio a {
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  text-transform: uppercase;
+  width: 572px;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 38.73px;
+  color: #ffffff;
+  background-color: #ff3333;
+  text-align: center;
+}

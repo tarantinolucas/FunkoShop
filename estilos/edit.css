@@ -3,14 +3,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-main {
+.main-editar {
   font-family: "Inter", sans-serif;
-  width: 100%;
-  max-width: 1024px;
-  padding-top: 25px;
-  margin: auto;
+  width: 1200px;
+  margin: 40px auto;
 }
 
 form {
@@ -21,19 +21,19 @@ form {
 h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 4.2rem;
   line-height: 49px;
   margin-bottom: 40px;
 }
 
 label {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 29px;
 }
 
 select {
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 24px;
   font-weight: 500;
   margin-left: 19px;
@@ -67,14 +67,14 @@ form div {
 }
 
 .form-item-underlined h6 {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 29px;
   display: inline;
 }
 
 .form-item-underlined p {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 22px;
   font-weight: 400;
   margin: 0 15px;
@@ -88,7 +88,7 @@ form div {
 
 #form-textArea-description textarea {
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 29.05px;
   width: 1000px;
@@ -101,7 +101,7 @@ form div {
 
 #form-textArea-description textarea::placeholder {
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 20px;
   font-weight: 400;
   margin-left: 19px;
@@ -121,7 +121,7 @@ form div {
 
 #form-item-loadImage input {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 16px;
   margin-left: 8px;
@@ -137,7 +137,7 @@ form div {
 .load-img p {
   width: 100%;
   text-align: center;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 23px;
   font-weight: 500;
   margin-top: 10px;
@@ -145,11 +145,15 @@ form div {
 }
 
 input[type="submit"] {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 17px;
   font-weight: 600;
   color: #ffffff;
   padding: 14px 23px;
   background-color: #ff3333;
   border: none;
+}
+
+.editar-boton-modificar {
+  margin: 0;
 }

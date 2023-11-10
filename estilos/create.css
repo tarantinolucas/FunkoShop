@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+.main-create {
+  font-family: "Inter", sans-serif;
+  width: 1200px;
+  margin: 45px 95px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo-create{
+    font-family: "Raleway", sans-serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #1F1F1F;
+    margin-bottom: 5%;
+  }
+
+  .item-productos {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  form div {
+    margin-bottom: 36px;
+  }
+/*botones*/
+  .form-content{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30%;
+    width: 40%;
+  }
+
+  .form-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    
+  }
+
+  .seleccion{
+    font-size: 2rem;
+    line-height: 24px;
+    font-weight: 5px;
+    margin-left: 19px;
+    border: solid 2px #30343f;
+    border-radius: 6px;
+    width: 240px;
+    padding: 5px;
+    margin-right:  10%;
+  }
+
+  .form-textarea{
+    width: 827.63px;
+    height: 194.83px;
+    top: 413.86px;
+    left: 115.55px;
+    border-radius: 4px;
+    border: solid 1px #1f1f1f;
+    padding: 11px 9px;
+    font-family: "Inter",sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #B9B9B9;
+  }
+
+  #inputproducto{
+    width: 31%;
+  }
+
+  #inputsku {
+    width: 13%;
+  }
+
+  #inputprecio{
+    width: 11%;
+  }
+
+  #inputstock{
+    width: 4%;
+  }
+
+  #inputdescuento{
+    width: 6%;
+  }
+
+  .form-control{
+    height: fit-content;
+    border:none;
+    border-bottom: 2px solid #FF3333;
+    font-family: "Inter",sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #B9B9B9;
+    width: 100%;
+    margin-right: 15%;
+  }
+
+  .form-controlimg{
+    font-size: 1.5rem;
+    
+    align-items:start;
+  }
+
+  .boton-create{
+    width: 175px;
+    height: 44.33px;
+    top: 885.3px;
+    left: 115.55px;
+    border: none;
+    background-color: #FF3333;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF
+  }

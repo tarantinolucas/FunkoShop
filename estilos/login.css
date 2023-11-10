@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.ingresar-cuenta {
+  font-family: "Inter", sans-serif;
+  width: 1200px;
+  margin: 40px auto;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 34%;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 49px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.item-form {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+form div {
+  margin-bottom: 36px;
+}
+
+.contenedora {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-control {
+  width: 208.99px;
+  height: 25.18px;
+  top: 342.82px;
+  left: 739.61px;
+  margin-left: 20px;
+  margin: 0 15px;
+  padding-right: 20px;
+  justify-content: end;
+  border: none;
+  border-bottom: 2px solid #ff3333;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.boton-create {
+  width: 103px;
+  height: 39.06px;
+  top: 667px;
+  left: 500.26px;
+  background-color: #ff3333;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-check-input {
+  padding: 5px;
+  /* appearance: none;*/
+  border: 2px solid #1f1f1f;
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  width: 70%;
+}
+.form-content label {
+  font-size: 1.6rem;
+}
+
+.forgot-pass {
+  display: flex;
+  color: #1d84b5;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 1.4rem;
+}

@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/item.css">
+    <link
+      rel="shortcut icon"
+      href="multimedia/icons/baby-yoda-1.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="estilos/header.css">
     <link rel="stylesheet" href="estilos/footer.css">
     <script src="https://kit.fontawesome.com/cd152692ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/glide.core.css" />
+    <link rel="stylesheet" href="estilos/glide.theme.css" />
+    <link rel="stylesheet" href="estilos/item.css">
     <title>Funkshop - Item</title>
 </head>
 <body>
@@ -21,20 +28,17 @@
                 </a>
                 <ul class="header-navbar-nav">
                     <li class="header-nav-item">
-                        <a class="header-nav-link" href="shop.html">SHOP <img src="assets/img/poquito.png"></a>
+                        <a class="header-nav-link" href="shop.html">SHOP <img src="assets/img/piquito.png"></a>
                     </li>
                     <li class="header-nav-item">
                         <a class="header-nav-link" href="#">CONTACTO</a>
                     </li>
                     <li class="header-nav-item">
-                        <a class="header-nav-link" href="admin.html">LOGIN</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-link" href="#">SALIR</a>
+                        <a class="header-nav-link" href="login.html">LOGIN</a>
                     </li>
                     </li>
                     <li class="header-nav-item">
-                        <a class="header-nav-link" href="shop.html"><img src="assets/img/cart-icon.png"></a>
+                        <a class="header-nav-link" href="carrito.html"><img src="assets/img/cart-icon.png"></a>
                     </li>
                 </ul>
             </div> 
@@ -43,51 +47,115 @@
     <!-- FIN HEADER -->
 
     <div class="item-container">
-        <div class="item-details-container">
-            <div class="item-img-container">
-                <img src="assets/img/baby-yoda.png" alt="Baby Yoda">
-            </div>
-            <div class="item-desc-container">
-                <h6 class="categoria-articulo">STAR WARS</h6>
-                <h1 class="titulo-articulo">BABY YODA BLUEBALL</h1>
-                <p class="descripcion-articulo">Figura coleccionable de baby yoda (Grogu) - The Mandalorian Saga, edición limitada.</p>
-                <h2 class="precio-articulo">$ 1799,99.-</h2>
-                <div class="botones-carrito-container">
-                    <button class="boton-menos">-</button>
-                    <input type="number" class="cantidad" value="0">
-                    <button class="boton-mas">+</button>
-                    <button class="agregar-carrito">Agregar al Carrito</button>
-                </div>
-                <p class="metodos-cuotas"><a href="" class="metodos-pago">Ver métodos de pago</a> - 3 CUOTAS SIN INTERÉS</p>
-            </div>
+      <div class="item-details-container">
+        <div class="item-img-container">
+          <img
+            class="img-front item__img"
+            src="multimedia/star-wars/baby-yoda-1.webp"
+            alt="Baby Yoda"
+          />
+          <img
+            class="img-back item__img"
+            src="multimedia/star-wars/baby-yoda-box.webp"
+            alt=""
+          />
         </div>
-        <h1 class="titulo-related">PRODUCTOS RELACIONADOS</h1>
-        <div class="related-container">
-            <div class="related-articulo-container">
-                <h5 class="new-cartel">NUEVO</h5>
-                <img src="assets/img/trooper.png" alt="Stormtrooper">
-                <h6 class="categoria-articulo-related">STAR WARS</h6>
-                <h1 class="titulo-articulo-related">STORMTROOPER LIGHTSABER</h1>
-                <h2 class="precio-articulo-related">$ 1799,99.-</h2>
-                <p class="metodos-cuotas-related">3 CUOTAS SIN INTERÉS</p>
-            </div>
-            <div class="related-articulo-container">
-                <h5 class="new-cartel">NUEVO</h5>
-                <img src="assets/img/pidgeotto.png" alt="Stormtrooper">
-                <h6 class="categoria-articulo-related">POKEMON</h6>
-                <h1 class="titulo-articulo-related">PIDGEOTTO</h1>
-                <h2 class="precio-articulo-related">$ 1799,99.-</h2>
-                <p class="metodos-cuotas-related">3 CUOTAS SIN INTERÉS</p>
-            </div>
-            <div class="related-articulo-container">
-                <h5 class="new-cartel">NUEVO</h5>
-                <img src="assets/img/luna.png" alt="Stormtrooper">
-                <h6 class="categoria-articulo-related">HARRY POTTER</h6>
-                <h1 class="titulo-articulo-related">LUNA LOVEGOOD LION MASK</h1>
-                <h2 class="precio-articulo-related">$ 1799,99.-</h2>
-                <p class="metodos-cuotas-related">3 CUOTAS SIN INTERÉS</p>
-            </div>
+        <div class="item-desc-container">
+          <h6 class="categoria-articulo">STAR WARS</h6>
+          <h2 class="titulo-articulo">BABY YODA BLUEBALL</h2>
+          <p class="descripcion-articulo">
+            Figura coleccionable de baby yoda (Grogu) - The Mandalorian Saga,
+            edición limitada.
+          </p>
+          <h2 class="precio-articulo">
+            $ <span class="precio-articulo__span"></span>.-
+          </h2>
+          <div class="botones-carrito-container">
+            <button type="button" class="botones__carrito boton-menos">
+              -
+            </button>
+            <input
+              type="text"
+              class="inputCantidad cantidad"
+              placeholder="0"   
+              pattern="[0-9]+"          
+                          />
+            <button type="button" class="botones__carrito boton-mas">+</button>
+
+            <button type="button" class="agregar-carrito">
+              Agregar al Carrito
+            </button>
+          </div>
+          <p class="metodos-cuotas">
+            <a href="" class="metodos-pago">Ver métodos de pago</a> - 3 CUOTAS
+            SIN INTERÉS
+          </p>
         </div>
+      </div>
+        <h2 class="titulo-related">PRODUCTOS RELACIONADOS</h2>
+        <div class="div-container__funkoItem">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <div class="funkoItem">
+                      <p class="p__nuevo">NUEVO</p>
+                      <img src="multimedia/star-wars/trooper-1.webp" alt="" />
+                      <h6 class="m-bottom-13">STAR WARS</h6>
+                      <h5 class="m-bottom-13">STORMTROOPER LIGHTSABER</h5>
+                      <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+                      <p class="p__cuotas m-bottom-13">
+                        3 CUOTAS SIN INTERÉS
+                      </p>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="funkoItem">
+                      <p class="p__nuevo">NUEVO</p>
+                      <img src="multimedia/pokemon/pidgeotto-1.webp" alt="" />
+                      <h6 class="m-bottom-13">POKEMON</h6>
+                      <h5 class="m-bottom-13">PIDGEOTTO</h5>
+                      <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+                      <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="funkoItem">
+                      <p class="p__nuevo">NUEVO</p>
+                      <img src="multimedia/harry-potter/luna-1.webp" alt="" />
+                      <h6 class="m-bottom-13">HARRY POTTER</h6>
+                      <h5 class="m-bottom-13">LUNA LOVEGOOD LION MASK</h5>
+                      <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+                      <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- SLIDE ARROWS -->
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                <img
+                class="slideArrows__icons"
+                src="multimedia/icons/mover-al-anterior.png"
+                alt=""
+              />
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  data-glide-dir=">"
+                >
+                <img
+                class="slideArrows__icons"
+                src="multimedia/icons/mover-al-siguiente.png"
+                alt=""
+              />
+                </button>
+              </div>
+            </div>
+          </div>
     </div>
 
     <!-- INICIO FOOTER -->
@@ -98,10 +166,10 @@
                     <a class="footer-nav-link" href="shop.html">SHOP</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="admin.html">REGISTRARSE</a>
+                    <a class="footer-nav-link" href="register.html">REGISTRARSE</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a class="footer-nav-link" href="admin.html">INGRESAR</a>
+                    <a class="footer-nav-link" href="login.html">INGRESAR</a>
                 </li>
                 <li class="footer-nav-item">
                     <a class="footer-nav-link" href="#">CONTACTO</a>
@@ -112,6 +180,15 @@
         </nav>
     </footer>
     <!-- FIN FOOTER -->
-
+    <!-- GLIDE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 3,
+        autoplay: 3000,
+      }).mount();
+    </script>
+    <script src="script.js"></script>
 </body>
 </html>
